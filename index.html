@@ -4,21 +4,33 @@
     <meta charset="utf-8">
     <title>Sandwich Simulator</title>
     <style media="screen">
-      h1 {
-        color:orange;
+      #headerBox {
+        color:red;
+        border: 3px dotted red;
+      }
+      .paraBox {
+        border: 3px solid black;
+      }
+      #content {
+        border: 4px solid black
       }
     </style>
   </head>
-  <body>
-
-    <h1>The perfect combination for a sandwich comprises of two objects: the bun and the insides.</h1>
-    <div id="myDIV">
+  <body id="content">
+    <div id="headerBox">
+      <h1>The perfect combination for a sandwich comprises of two objects: the bun and the insides.</h1>
       <p> First, have two slices of bread. Then, add ONE slice of meat. Boom, you're done. So free.</p>
     </div>
-    <h2>Banan bread sucks</h2>
-    <p>there is no reason why banana bread is unironically good. It's just bad.</p>
-    <h2>Get to School</h2>
-    <p>Play my <a href="www/index.html">game</a></p>
+
+    <div class="paraBox">
+      <h2>Banan bread sucks</h2>
+      <p>there is no reason why banana bread is unironically good. It's just bad.</p>
+    </div>
+
+    <div class="paraBox">
+      <h2>Get to School</h2>
+      <p>Play my <a href="www/index.html">game</a></p>
+    </div>
 
   <a href="about.html">About</a>
   <img src="garlicbread.jpg" alt="Garlic Bread" width="800" height="600">
