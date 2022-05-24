@@ -1,0 +1,33 @@
+body {
+  background-color: #009BCE;
+}
+
+#content {
+width: 600px;
+margin: auto;
+border: 1px solid #000000;
+padding: 10px
+}
+
+#menuBox {
+display: flex;
+justify-content: space-around;
+flex-wrap: flex;
+border: 3px solid #000000;
+padding: 5px
+}
+
+.linkBox {
+display: inline;
+}
+
+.blogBox {
+display: flex;
+justify-content: space-around;
+flex-wrap: flex;
+border: 1px solid #000000;
+}
+
+.blogBox img {
+float: right;
+}
